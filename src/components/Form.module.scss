@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+.divFormWrapper{
+    display: flex;
+    flex-direction: column;
+    margin:0 auto;
+    background-color: #e0d9c9;
+    font-family: 'Roboto', sans-serif;
+    margin-top:300px;
+    width:100vw;
+    overflow-x: hidden;
+    @media only screen and (max-width: 780px) {
+        margin-top: 280px;
+       
+    }
+    @media only screen and (max-width: 515px) {
+        margin-top: 380px;
+       
+    }
+    @media only screen and (max-width: 430px) {
+        margin-top: 400px;
+       
+    }
+    @media only screen and (max-width: 370px) {
+        margin-top: 410px;
+       
+    }
+    @media only screen and (max-width: 310px) {
+        margin-top: 420px;
+       
+    }
+
+    p{
+        width:68%;
+        margin:0 auto;
+        text-transform: uppercase;
+        font-size:25px;
+        font-weight: bold;
+        margin-top:40px;
+        margin-bottom:40px;
+        text-align: center;
+        @media only screen and (max-width: 450px) {
+            font-size:20px;           
+          }
+
+    }
+    .formWrapper{
+        width:68%;
+        margin:0 auto;
+        background-color: #e0d9c9;
+        display:flex;
+        flex-wrap:wrap;
+        @media only screen and (max-width: 1024px) {
+            width:85%;
+
+        }
+        @media only screen and (max-width: 460px) {
+          flex-direction: column;
+
+        }
+
+        .formDiv1{
+           
+            background-color: #e0d9c9;
+            margin-bottom: 10px;
+            width:50%;
+            display:flex;
+            flex-direction: column;
+            
+            .errorMessage{
+                color:red;
+                display:flex;
+                justify-content: center;
+                margin-top:10px;
+                margin-bottom:10px;
+            }
+            @media only screen and (max-width: 724px){
+                .formDiv1{
+                   flex-wrap:wrap;
+                }
+             }
+             @media only screen and (max-width: 650px) {
+                font-size:14px;           
+              }
+             @media only screen and (max-width: 460px) {
+                width:100%;
+    
+            }
+        }
+        
+
+        .formDiv2{
+           width:50%;
+           display:flex;
+            flex-direction: column;
+            background-color: #e0d9c9; 
+            .errorMessage{
+                color:red;
+                display:flex;
+                justify-content: center;
+                margin-top:10px;
+                margin-bottom:10px;
+                @media only screen and (max-width: 650px) {
+                    font-size:14px;           
+                  }
+                  
+            }
+            @media only screen and (max-width: 724px){
+                .formDiv2{
+                   flex-wrap:wrap;
+                }
+             }
+             @media only screen and (max-width: 460px) {
+                width:100%;
+    
+            }
+        }
+       
+        
+        
+        input{
+            align-self: center;
+            height:40px;
+            margin:5px;
+            width:70%;
+            border:none;
+            background-color: #ffffff;
+            @media only screen and (max-width: 1024px) {
+                width:80%;
+    
+            }
+        }
+        @media only screen and (max-width: 460px) {
+            width:100%;
+
+        }
+        input::placeholder{
+            padding-left:10px;
+            font-family: 'Roboto', sans-serif;
+            margin-left:5px;
+
+        }
+        
+        
+       
+
+        .checkboxes{
+           
+            background-color: #e0d9c9;
+            width:100%;
+            
+
+            p{
+                font-size:16px;
+                font-weight: normal;
+                text-transform: lowercase;
+                margin:20px 0 10px 5px;
+                padding:0;
+                opacity: 0.8;
+                width:100%;
+                @media only screen and (max-width: 650px) {
+                    font-size:14px;   
+                    margin:10px;
+   
+                    width:95%;
+                    margin-right:20px;
+                   
+                  }
+                  
+            }
+            
+        
+            
+            div{
+                background-color: #e0d9c9;
+                display:flex;
+                align-items: center;
+             
+                width:100%;
+                @media only screen and (max-width: 500px){
+                    margin-left:20px;
+                   
+                 }
+                 @media only screen and (max-width: 400px){
+                    margin-left:10px;
+                   
+                 }
+                
+                input{
+                    border: none;
+                    width: 22px;
+                    height: 22px;
+                    background-color: #ffffff;
+                    margin-top:20px;
+                    margin-right:10px;
+                    -webkit-appearance: none;
+                    -moz-appearance: none;
+                    appearance: none;
+                    
+                }
+                input[type=checkbox]:after {
+                    content: " ";
+                    background-color: #ffffff;
+                    display: inline-block;
+                    visibility: visible;
+                  }
+                  input[type=checkbox]:checked:after {
+                    content: "\2714";
+                    color:#0288BD;
+                    font-size: 14px;
+                    padding-left: 5px;
+                    
+                  }
+                label{
+                    font-size:14px;
+                    opacity: 0.8;
+                    margin-top:20px;
+                    @media only screen and (max-width: 400px){
+                        width:80%;
+                       
+                     }
+
+                }
+            }
+            
+        }
+        .buttonForm{
+            display:flex;
+            justify-content: flex-end;
+            width:100%;
+            background-color: #e0d9c9;
+            @media only screen and (max-width: 500px){
+             justify-content: center;
+            
+          }
+            button{
+                height:50px;
+                width:22%;
+                background-color: #0288BD;
+                border:none;
+                color:#ffffff;
+                font-family: 'Roboto', sans-serif;
+                text-transform: uppercase;
+                font-size: 16px;
+                letter-spacing: 1px;
+                cursor: pointer;
+                margin-top:30px;
+                padding-left:10px;
+                padding-right: 10px;
+                @media only screen and (max-width: 730px){
+                
+                    width:50%;
+                
+              }
+              @media only screen and (max-width: 500px){
+                
+                margin-top:20px;
+                width:90%;
+                
+            
+          }
+            }
+           
+              
+        }
+        
+    }
+    .formResponse{
+        display:flex;
+        justify-content: center;
+        background-color: #e0d9c9;
+        font-size:22px;
+        font-weight: bold;
+    }
+}

@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+.articlesDiv {
+    font-family: 'Roboto', sans-serif;
+    width:100vw;
+    overflow-x: hidden !important;
+   
+
+
+    .article1 {
+        margin: 0 auto;
+        display: flex;
+        justify-content: flex-end;
+        width: 35%;
+        height: 550px;
+        position:absolute;
+        top:500px;
+        right:250px;
+       overflow-x: hidden;
+
+        @media only screen and (max-width: 1560px) {
+            width:45%;
+            right:100px;
+        }
+        @media only screen and (max-width: 1220px) {
+            right:50px;
+            width:50%;
+           
+        }
+        @media only screen and (max-width: 1220px) {
+            height: 600px; 
+        }
+        @media only screen and (max-width: 955px) {
+           width:55%;   
+          
+        }
+        @media only screen and (max-width: 815px) {
+            width:60%;   
+         }
+         @media only screen and (max-width: 780px) {
+            width:100%;   
+            left:0;
+            right:0;
+            top:480px;
+         }
+         @media only screen and (max-width: 535px) {
+           height: 620px;
+ 
+         }
+
+        .text1 {
+            width: 90%;
+            background-color: #e8e0d8;
+            padding-top:50px;
+            @media only screen and (max-width: 780px) {
+              width:100%;
+
+            }
+            
+            
+
+            h1,
+            p {
+                padding-left: 70px;
+                padding-right: 70px;
+                text-align: justify;
+                @media only screen and (max-width: 1721px) {
+                    padding-left:40px;
+                    padding-right:40px;
+    
+                }
+                @media only screen and (max-width: 650px) {
+                    font-size:15px;
+        
+                }
+                
+            }
+            h1{
+                padding-bottom: 30px;
+                @media only screen and (max-width: 650px) {
+                    font-size:20px;
+        
+                }
+            }
+            .items{
+             display: flex;
+             margin-bottom: 10px;
+             margin-top: 10px;
+             align-items: center;
+             
+             @media only screen and (max-width: 780px) {
+                font-size:15px;
+                width:40%;
+                padding-top: 10px;
+  
+              } 
+              @media only screen and (max-width: 515px) {
+                width:100%;
+    
+            }
+                .cross{
+                    font-family: 'Liu Jian Mao Cao', cursive;
+                    font-size: 55px;
+                    color:#0288BD;
+                    margin-right: 10px;
+                    @media only screen and (max-width: 780px) {
+                        font-size:35px;
+                        overflow-x: visible;
+                        
+          
+                      } 
+                }
+                
+            }
+            
+
+
+        }
+
+    }
+
+    .article2 {
+        margin: 0 auto;
+        display: flex;
+        justify-content: flex-start;
+        width: 35%;
+    
+        position:absolute;
+        top:650px;
+        left:250px;
+        overflow-x: hidden;
+
+
+        @media only screen and (max-width: 1560px) {
+            left:100px;
+            width:45%;
+        }
+        @media only screen and (max-width: 1220px) {
+            left:50px;
+           
+        }
+        @media only screen and (max-width: 955px) {
+            width:35%;   
+            // height:350px;
+         }
+        
+          @media only screen and (max-width: 780px) {
+            right:20px;
+            left:auto;
+            top:760px;
+            width:45%;
+
+          }
+          @media only screen and (max-width: 575px) {
+           top:770px;
+           margin-top: 20px;;
+
+        }
+        @media only screen and (max-width: 515px) {
+            top:950px;
+            width:100%;
+            left:0;
+            right:0;
+            margin-left:0 auto;
+            margin-right: 0 auto;
+            }
+
+
+        .part1 {
+            width: 90%;
+            background-color: #ffffff;
+            display: flex;
+            padding-top: 40px;
+            padding-bottom:40px;
+            background-color: #e0d5c9;
+            flex-direction: column;
+            @media only screen and (max-width: 955px) {
+             padding-top: 10px;  
+             font-size:15px;
+             }
+             @media only screen and (max-width: 780px) {
+                padding-bottom: 20px;
+                }
+                @media only screen and (max-width: 515px) {
+               width:100%;
+               padding-left:20px;
+               padding-right: 20px;
+            }
+             
+            
+           
+
+
+            .slider {
+                height: 55px;
+                display: flex;
+                justify-content: flex-end;
+                padding-top: 5px;
+               
+
+                svg {
+                    padding: 0;
+                    width: 50px;
+                    height: 50px;
+                    border: 0;
+                    margin: 0;
+                    font-size: 50px;
+                    cursor: pointer;
+                    margin-right: 20px;
+                    color:#0288BD;
+                    @media only screen and (max-width: 575px) {
+                        font-size:40px;
+            
+                    }
+
+                }
+
+                @media only screen and (max-width: 450px) {
+                    button img {
+                        width: 30px;
+                        height: 30px;
+                    }
+                }
+
+                .buttonRight {
+                    margin-right: 5px;
+                }
+
+
+            }
+
+            .text2 {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                padding-bottom: 30px;
+               
+
+
+
+                .title {
+                    font-size: 18px;
+                    font-weight: bold;
+                    padding-bottom: 20px;
+                    padding-left: 70px;
+                    padding-right: 70px;
+                    margin-left: 25px;
+                    @media only screen and (max-width: 1721px) {
+                        padding-left: 40px;
+                        padding-right: 40px;
+                    }
+                    @media only screen and (max-width: 815px) {
+                        padding-left:20px;
+                        padding-right:20px; 
+                     }
+                }
+                .text{
+                    padding-left: 70px;
+                    padding-right: 70px;
+                    text-align: justify;
+                    @media only screen and (max-width: 1721px) {
+                        padding-left: 40px;
+                        padding-right: 40px;
+                    }
+                    @media only screen and (max-width: 815px) {
+                        padding-left:20px;
+                        padding-right:20px; 
+                     }
+                }
+
+                @media only screen and (max-width: 730px) {
+                    .title {
+                        font-size: 16px;
+                        margin-left: 10px;
+                    }
+
+                }
+
+                .text {
+                    margin: 0 25px 0 25px;
+                    max-height: 300px;
+                }
+
+                @media only screen and (max-width: 730px) {
+                    .text {
+                        font-size: 14px;
+                        margin-left: 10px;
+                        margin-right: 10px;
+                    }
+
+                }
+
+
+            }
+
+        }
+
+     
+       
+
+        .apples {
+            width: 34%;
+
+
+        }
+
+        @media only screen and (max-width: 730px) {
+            .apples {
+                width: 40%;
+            }
+        }
+
+        @media only screen and (max-width: 500px) {
+            .apples {
+                display: none
+            }
+        }
+
+    }
+
+
+    // @media only screen and (max-width: 730px) {
+    //     .article1 {
+    //         top: 120px;
+    //     }
+
+    //     .article2 {
+    //         margin-top: 280px;
+    //     }
+    // }
+
+
+
+}
+
+@media only screen and (max-width: 500px) {
+    .article2 {
+        flex-direction: column;
+    }
+
+}
