@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/bigFatFish_restaurant/static/css/main.d3bbca23.chunk.css",
+    "main.js": "/bigFatFish_restaurant/static/js/main.25b72e3d.chunk.js",
+    "main.js.map": "/bigFatFish_restaurant/static/js/main.25b72e3d.chunk.js.map",
+    "runtime-main.js": "/bigFatFish_restaurant/static/js/runtime-main.1e9e899c.js",
+    "runtime-main.js.map": "/bigFatFish_restaurant/static/js/runtime-main.1e9e899c.js.map",
+    "static/js/2.8a3648aa.chunk.js": "/bigFatFish_restaurant/static/js/2.8a3648aa.chunk.js",
+    "static/js/2.8a3648aa.chunk.js.map": "/bigFatFish_restaurant/static/js/2.8a3648aa.chunk.js.map",
+    "index.html": "/bigFatFish_restaurant/index.html",
+    "precache-manifest.e566e954377a8cfa2c84a51c4f4cb35e.js": "/bigFatFish_restaurant/precache-manifest.e566e954377a8cfa2c84a51c4f4cb35e.js",
+    "service-worker.js": "/bigFatFish_restaurant/service-worker.js",
+    "static/css/main.d3bbca23.chunk.css.map": "/bigFatFish_restaurant/static/css/main.d3bbca23.chunk.css.map",
+    "static/js/2.8a3648aa.chunk.js.LICENSE": "/bigFatFish_restaurant/static/js/2.8a3648aa.chunk.js.LICENSE",
+    "static/media/cafe-3537801_1920.jpg": "/bigFatFish_restaurant/static/media/cafe-3537801_1920.688edae9.jpg",
+    "static/media/platter-2009590_1920.jpg": "/bigFatFish_restaurant/static/media/platter-2009590_1920.8b20604b.jpg",
+    "static/media/wine-1761613_1920.jpg": "/bigFatFish_restaurant/static/media/wine-1761613_1920.263fa55f.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1e9e899c.js",
+    "static/js/2.8a3648aa.chunk.js",
+    "static/css/main.d3bbca23.chunk.css",
+    "static/js/main.25b72e3d.chunk.js"
+  ]
+}
